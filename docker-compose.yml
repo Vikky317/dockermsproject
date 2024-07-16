@@ -3,7 +3,7 @@ services:
   movies:
     image: vikram317/paytmmovies:latest
     ports:
-      - "81:80"
+      - "85:80"
     deploy:
       replicas: 3
     volumes:
@@ -11,7 +11,7 @@ services:
   train:
     image: vikram317/paytmtrain:latest
     ports:
-      - "82:80"
+      - "86:80"
     deploy:
       replicas: 3
     volumes:
@@ -19,7 +19,7 @@ services:
   dth:
     image: vikram317/paytmdth:latest
     ports:
-      - "83:80"
+      - "87:80"
     deploy:
       replicas: 3
     volumes:
@@ -27,7 +27,7 @@ services:
   rc:
     image: vikram317/paytmrc:latest
     ports:
-      - "84:80"
+      - "88:80"
     deploy:
       replicas: 3
     volumes:
