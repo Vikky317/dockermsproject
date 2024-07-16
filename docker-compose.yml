@@ -15,7 +15,7 @@ services:
   dth:
     image: vikram317/paytmdth:latest
     ports:
-      - "87:80"
+      - "89:80"
     deploy:
       replicas: 3
   rc:
